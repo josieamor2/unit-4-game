@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div id="background">
+        <h1>Crystal Collector</h1>
+        
+        <h2>Rules</h2>
+        <br>
+        <p>Goal of the game is to match the random number displayed by clicking the crystals.</p>
+        <br>
+        <p>Each crystal is designated a random number that you will have to figure out. As you click on them the score will
+            need to equal the random number. If the number goes over what the random number equals, you lose. </p>
+        <br>
+        <p>Each time you win or lose, a new random number will be assigned. Along with that the crystals will have a new random
+            number you will have to discover.</p>
+
+
+        <div id="together">
+            <div class="random">
+                <h2>Random Number:</h2>
+
+                <div id="random-number"></div>
+            </div>
+            <div class="total">
+                <h2>Your total is...</h2>
+                <div id="your-score">0</div>
+            </div>
+        </div>
+        <div class="score">
+                <div class="wins">
+                    <span>Wins:</span>
+                </div>
+                <div class="losses">
+                    <span>Losses:</span>
+                </div>
+            </div>
+        <div class="crystals">
+            <button type="button" id="crystal-1">
+                <img src="assets/images/green.png" alt="green diamond">
+            </button>
+            <button type="button" id="crystal-2">
+                <img src="assets/images/orange.png" alt="green diamond">
+            </button>
+            <button type="button" id="crystal-3">
+                <img src="assets/images/pink.png" alt="green diamond">
+            </button>
+            <button type="button" id="crystal-4">
+                <img src="assets/images/blue.png" alt="green diamond">
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

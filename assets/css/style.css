@@ -1,0 +1,94 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    width:100%;
+    line-height:1.5em;
+    margin-top:30px;
+    background-image: url("../images/glitter.gif");
+    background-repeat: repeat;
+    color:#fff;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+h1{
+    font-size: 36px;
+    font-weight:bold;
+    margin-bottom: 20px;
+    
+}
+
+h2{
+    font-size:28px;
+    font-weight: bold;
+    padding-bottom:20px;
+}
+p{
+    font-size:18px;
+    width:80%;
+    margin: 0 auto;
+    text-align:justify center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.score{
+    width:100%;
+    margin: 0 auto;
+    display: inline-block;
+    padding:20px 0;
+}
+
+#random-number{
+    font-weight: bold;
+    font-size:36px;
+}
+#your-score{
+    font-weight: bold;
+    font-size:36px;
+}
+button{
+    border-color:#fff0 !important;
+    border-style:none !important;
+    background-color:#fff0 !important;
+    
+}
+button img{
+    width:150px;
+    max-height:150px;
+}
+#crystal-4{
+    margin-left:-30px;
+}
+#background{
+    background-color: #9e9e9eab;
+    width:60%;
+    margin:0 auto;
+    padding:30px 0px 50px;
+    
+    
+    
+}
+.random{
+    display: inline-block;
+    float:left;
+    width:50%;
+}
+.total{
+    display: inline-block;
+    float:left;
+    width:50%;
+}
+#together{
+    float:left;
+    width:100%;
+    padding-top:50px;
+    margin-bottom:50px;
+}
+div.wins,div.losses{
+    font-size:24px;
+    width:45%;
+    margin:0 auto;
+    
+}
+.crystals{
+    width:100%;
+    margin:0 auto;
+}
